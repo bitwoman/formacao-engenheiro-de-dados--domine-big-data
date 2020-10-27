@@ -1,0 +1,7 @@
+Veiculos(ID, dataAquisicao, ano, modelo, placa, statusLocacao, precoDiaria)
+
+Clientes(ID, CPF, numeroCnh, dataValidadeCnh, nomeCliente, dataCadastro, dataNascimento, telefone, statusCliente)
+
+Despachantes(ID, nomeDespachante, statusDespachante, filial)
+
+Locacao(IDVeiculo, dataLocacao, dataEntrega, valorTotal, IDCliente, IDDespachante)

@@ -1,0 +1,4 @@
+use dbcontratos;
+
+db.contratos.find().pretty()
+db.contratos.find({idcliente:"2"}).pretty()
